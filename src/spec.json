@@ -1,0 +1,298 @@
+{
+  "title": "Gestione dei corsi di formazione",
+  "description": "Catalogo navigabile per consultare e organizzare corsi interni, docenti, date e disponibilità dei posti.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo dei corsi e dei posti disponibili, con accesso rapido al catalogo filtrabile.",
+      "metrics": [
+        {
+          "label": "Corsi in programma",
+          "value": "12"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "86"
+        },
+        {
+          "label": "Docenti coinvolti",
+          "value": "9"
+        },
+        {
+          "label": "Corsi in partenza",
+          "value": "4"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Organizzazione",
+        "Data inizio",
+        "Data fine",
+        "Posti disponibili",
+        "Capienza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Comunicazione chiara",
+          "Lumo Riva",
+          "Officina Vela",
+          "12/05/2026",
+          "12/05/2026",
+          "8",
+          "16",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Strumenti digitali essenziali",
+          "Nubi Sera",
+          "Atelier Loto",
+          "18/05/2026",
+          "20/05/2026",
+          "6",
+          "14",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Organizzare il lavoro",
+          "Vela Miro",
+          "Spazio Brina",
+          "25/05/2026",
+          "25/05/2026",
+          "10",
+          "18",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Scrittura per progetti",
+          "Lumo Tersa",
+          "Laboratorio Quarzo",
+          "02/06/2026",
+          "03/06/2026",
+          "4",
+          "12",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Dati e decisioni",
+          "Nubi Lira",
+          "Officina Vela",
+          "08/06/2026",
+          "09/06/2026",
+          "7",
+          "15",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Riunioni efficaci",
+          "Vela Neri",
+          "Atelier Loto",
+          "15/06/2026",
+          "15/06/2026",
+          "5",
+          "12",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Fondamenti di accessibilità",
+          "Lumo Varen",
+          "Spazio Brina",
+          "22/06/2026",
+          "23/06/2026",
+          "9",
+          "16",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Collaborazione tra gruppi",
+          "Nubi Tilo",
+          "Laboratorio Quarzo",
+          "29/06/2026",
+          "29/06/2026",
+          "3",
+          "10",
+          "Iscrizioni aperte"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "catalogo-corsi",
+      "title": "Catalogo corsi",
+      "description": "Consulta e filtra il calendario formativo per titolo, docente, date e disponibilità.",
+      "metrics": [
+        {
+          "label": "Corsi elencati",
+          "value": "12"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "86"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Organizzazione",
+        "Data inizio",
+        "Data fine",
+        "Posti disponibili",
+        "Capienza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Comunicazione chiara",
+          "Lumo Riva",
+          "Officina Vela",
+          "12/05/2026",
+          "12/05/2026",
+          "8",
+          "16",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Strumenti digitali essenziali",
+          "Nubi Sera",
+          "Atelier Loto",
+          "18/05/2026",
+          "20/05/2026",
+          "6",
+          "14",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Organizzare il lavoro",
+          "Vela Miro",
+          "Spazio Brina",
+          "25/05/2026",
+          "25/05/2026",
+          "10",
+          "18",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Scrittura per progetti",
+          "Lumo Tersa",
+          "Laboratorio Quarzo",
+          "02/06/2026",
+          "03/06/2026",
+          "4",
+          "12",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Dati e decisioni",
+          "Nubi Lira",
+          "Officina Vela",
+          "08/06/2026",
+          "09/06/2026",
+          "7",
+          "15",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Riunioni efficaci",
+          "Vela Neri",
+          "Atelier Loto",
+          "15/06/2026",
+          "15/06/2026",
+          "5",
+          "12",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Fondamenti di accessibilità",
+          "Lumo Varen",
+          "Spazio Brina",
+          "22/06/2026",
+          "23/06/2026",
+          "9",
+          "16",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Collaborazione tra gruppi",
+          "Nubi Tilo",
+          "Laboratorio Quarzo",
+          "29/06/2026",
+          "29/06/2026",
+          "3",
+          "10",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Presentazioni sintetiche",
+          "Vela Sori",
+          "Spazio Brina",
+          "06/07/2026",
+          "06/07/2026",
+          "8",
+          "14",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Pianificazione condivisa",
+          "Lumo Davi",
+          "Atelier Loto",
+          "13/07/2026",
+          "14/07/2026",
+          "11",
+          "20",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Scrittura accessibile",
+          "Nubi Mela",
+          "Laboratorio Quarzo",
+          "20/07/2026",
+          "20/07/2026",
+          "7",
+          "12",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Laboratori collaborativi",
+          "Vela Teri",
+          "Officina Vela",
+          "27/07/2026",
+          "28/07/2026",
+          "8",
+          "18",
+          "Iscrizioni aperte"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuovo-corso",
+      "title": "Aggiungi un corso",
+      "description": "Registra una proposta formativa con docente, organizzazione, calendario e numero di posti.",
+      "metrics": [],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Organizzazione",
+        "Data inizio",
+        "Data fine",
+        "Posti disponibili",
+        "Capienza",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Corso",
+        "Docente",
+        "Organizzazione",
+        "Data inizio",
+        "Data fine",
+        "Posti disponibili",
+        "Capienza",
+        "Stato"
+      ]
+    }
+  ]
+}
